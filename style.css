@@ -1,0 +1,33 @@
+* {
+    color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vh;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 120%;
+    word-break: break-all;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100svh;
+    background-color: #333;
+}
+
+textarea {
+    resize: none;
+    background-color: #444;
+    border: 1px solid #AAA;
+    margin: 5px;
+    border-radius: 0;
+    padding: 1vh;
+    overflow-y: auto;
+}
+
+output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
